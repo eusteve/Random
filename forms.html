@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Forms</title>
+</head>
+<body>
+    <form action="submit.html" method="POST">
+        <div>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="fname" placeholder="first_name" required> <br>
+        </div>
+        <div>
+        <label for="Last_name" >Last Name:</label>
+        <input type="surname" id="surname" placeholder="sirname" required> <br>
+        </div>
+
+        <div>
+            <p>sign up for our newsletter below:</p>
+            <label for="email">email:</label>
+            <input type="email" required placeholder="someone@example.com"><br>
+        </div>
+
+        <div>
+            <label for="password">password:</label>
+            <input type="password" id="password"  minlength="6" maxlength="20" required><br>
+        </div>
+
+        <div>
+            <label for="date">Date</label>
+            <input type="date" required >
+        </div>
+        <div>
+            <label for="gender">Gender:</label> <br>
+            <label for="male">male</label>
+            <input type="radio" id="gender" name="gender" required>
+            <label for="female">Female</label>
+            <input type="radio" id="gender2" name="gender" checked>
+            <label for="other">Other</label>
+            <input type="radio" id="gender" name="gender" >
+        </div>
+
+        <div>
+            <p>select a payment method:</p>
+            <select>
+                <option value=""  selected>Payment Method</option>
+                <option value="VISA" >VISA</option>
+                <option value="MasterCard" >MASTER CARD</option>
+                <option value="GiftCard">GIFT CARD</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" id="terms" name="terms" value="agree" required>I agree to the terms and conditions stated below :<br>
+             <a href="terms and conditions">terms and conditions</a>
+        </div>
+        <input type="submit">
+
+
+    </form>
+</body>
+</html>

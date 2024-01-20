@@ -1,0 +1,22 @@
+a{
+    padding: 8px;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    border: right 1px solid black;
+    
+}
+
+li a:active{
+    background-color:  greenyellow;
+}
+ a:hover{
+    color: yellow;
+    background-color: aqua;
+    margin: 1px solid black;
+}
+.active
