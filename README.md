@@ -1,3 +1,2 @@
 # Random
-THE WATRIONHOLDER
-!the contains of these repo are vast and cann gta
+This repo contains practise files for random langauges and associated  programs
